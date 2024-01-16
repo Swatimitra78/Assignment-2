@@ -82,7 +82,7 @@ body {
 /* banner section start */
 
 .banner-section {
-  background-image: url(../Images/banner.png);
+  /* background-image: url(../Images/banner.png); */
   background-repeat: no-repeat;
   max-width: 1200px;
   height: 500px;
@@ -90,6 +90,7 @@ body {
   margin: 0 auto;
   border: 2px solid blue;
   margin-top: 50px;
+  background-image: linear-gradient(180deg,rgba(19, 19, 24, 0.8 ) 0%,rgba(19, 19, 24, 0) 100%), url(../Images/banner.png);
   /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
 
 }
@@ -180,7 +181,12 @@ form.example button:hover {
 .popular-text p,
 ul {
   margin-top: 25px;
+  margin-left: 10px;
 
+}
+
+.popular-text ul{
+  margin-left: 25px;
 }
 
 .popular-img {
@@ -247,17 +253,23 @@ ul li {
   position: relative;
   display: inline-block;
 }
+
+
 .text {
+  display: flex;
   color: #FFF;
   font-size: 28px;
   font-weight: 800;
-  position: absolute;
+ 
   bottom: 0;
   left: 0;
   align-items: center;
-  /* text-align: center;
-  justify-content: center; */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }
+
+
 .center{
   display: flex;
   justify-items: center;
@@ -311,4 +323,20 @@ ul li {
 }
 
 
+/* section stat */
+
+.Choose-img{
+  max-width: 1200px;
+  margin-top: 48px;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 25px
+  
+}
+
+.grid-item-img1{
+  width: 30%;
+  border: 3px soloid red;
+}
 
