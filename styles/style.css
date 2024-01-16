@@ -260,7 +260,7 @@ ul li {
   color: #FFF;
   font-size: 28px;
   font-weight: 800;
- 
+  position: absolute;
   bottom: 0;
   left: 0;
   align-items: center;
