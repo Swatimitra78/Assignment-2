@@ -107,14 +107,13 @@ body {
   text-align: center;
 }
 
-.text-container h1{
+.text-container h1 {
   color: #fff;
   font-size: 64px;
   font-weight: 800;
   margin-top: 50px;
   padding-top: 100px;
 }
-
 
 .travel {
   font-family: "Dancing Script", cursive;
@@ -145,6 +144,7 @@ body {
   border-radius: 8px;
   background: #fff;
   margin: 15px;
+  padding: 5px;
 }
 
 form.example button {
@@ -325,22 +325,20 @@ ul li {
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
-
-
 }
-.grid-item-img1 img{
+.grid-item-img1 img {
   display: flex;
   margin-left: 32px;
   margin-top: 15px;
 }
 
-.grid-item-img1 h4{
+.grid-item-img1 h4 {
   display: flex;
   margin-left: 32px;
   margin-top: 32px;
 }
 
-.grid-item-img1 p{
+.grid-item-img1 p {
   margin-left: 8px;
 }
 
@@ -351,22 +349,21 @@ ul li {
   background: rgba(41, 206, 246, 0.05);
 }
 
-.grid-item-img2 img{
+.grid-item-img2 img {
   display: flex;
   margin-left: 32px;
   margin-top: 15px;
 }
 
-.grid-item-img2 h4{
+.grid-item-img2 h4 {
   display: flex;
   margin-left: 32px;
   margin-top: 32px;
 }
 
-.grid-item-img2 p{
+.grid-item-img2 p {
   margin-left: 8px;
 }
-
 
 .grid-item-img3 {
   width: 50%;
@@ -375,21 +372,20 @@ ul li {
   background: rgba(233, 68, 68, 0.05);
 }
 
-.grid-item-img3 img{
+.grid-item-img3 img {
   display: flex;
   margin-left: 32px;
   margin-top: 20px;
 }
 
-.grid-item-img3 h4{
+.grid-item-img3 h4 {
   display: flex;
   margin-left: 32px;
   margin-top: 32px;
 }
 
-.grid-item-img3 p{
+.grid-item-img3 p {
   margin-left: 20px;
-  
 }
 
 /* discounts section start */
@@ -407,22 +403,21 @@ ul li {
   row-gap: 24px;
 }
 
-.dis{
+.dis {
   color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-margin-top: 100px;
-
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 100px;
 }
 
-.dis-p{
-  color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-size: 16px;
-margin-top: 15px;
-font-weight: 400;
-line-height: 26px; 
+.dis-p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: 400;
+  line-height: 26px;
 }
 .discount-img {
   position: relative;
@@ -592,7 +587,6 @@ line-height: 26px;
 
 .fotter-text {
   display: block;
-  
 }
 
 .footer-text-grp {
