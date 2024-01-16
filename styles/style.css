@@ -374,7 +374,7 @@ ul li {
   border-radius: 16px;
   border: 1px solid #FF5400;
   display: block;
-  text-align: center;
+  margin: 40px;
   justify-content: center;
 
 }
@@ -383,6 +383,7 @@ ul li {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
+  text-align: left;
 }
 
 .news-input {
@@ -395,6 +396,10 @@ ul li {
   background: rgba(19, 19, 24, 0.05);
 }
 
+.btn {
+  width: 393px;
+}
+
 .newsletter-img-grp {
   width: 60%;
 
@@ -403,4 +408,65 @@ ul li {
 .newsletter-img-grp img {
   object-fit: cover;
   width: 100%;
+}
+
+
+/* footer start */
+.footer {
+  display: block;
+  justify-self: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.fotter-text {
+  display: block;
+
+
+}
+
+.footer-text-grp {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.footer-pera {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.footer-icon-grp {
+  display: flex;
+  max-width: 1200px;
+  border: 2px solid blue;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+  gap: 25px;
+}
+
+.line {
+  width: 872px;
+  height: 2px;
+  background: rgba(19, 19, 24, 0.10);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.footer-p p {
+  display: flex;
+justify-content: center;
+  text-align: center;
+  margin-top: 50px;
 }
