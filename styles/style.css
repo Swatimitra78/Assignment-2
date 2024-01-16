@@ -112,6 +112,7 @@ body {
   font-size: 64px;
   font-weight: 800;
   margin-top: 50px;
+  padding-top: 100px;
 }
 
 
@@ -126,6 +127,7 @@ body {
 
 .banner-input {
   display: flex;
+  border: 0;
   /* border: 3px solid red; */
   width: 800px;
   height: 84px;
@@ -598,6 +600,7 @@ line-height: 26px;
   justify-content: center;
   margin: 0 auto;
   margin-top: 100px;
+  padding-top: 90px;
 }
 
 .footer-pera {
